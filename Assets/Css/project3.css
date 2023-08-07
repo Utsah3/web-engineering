@@ -1,0 +1,33 @@
+#A {
+    background-color: darkslateblue;
+    align-items: center;
+    text-align: center;
+    color: antiquewhite;
+    height:300px;
+    top:0;
+    padding-top: 15px;
+    font-size: larger;
+    
+}
+#mail {
+    background-color: pink;
+    display:inline-block;
+}
+#B{
+    background-color: black;
+
+    color:antiquewhite;
+    padding-top: 20px;
+    text-align: center;
+    height:100px;
+    bottom:0;
+    font-size: larger;
+}
+#A, #B {
+    position:absolute;
+    left:0%;
+    right:0%;
+    height: 300px;
+    outline: solid 1px white
+    
+}

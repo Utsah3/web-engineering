@@ -1,0 +1,58 @@
+#A{
+    font-size: 20px;
+    color:rgb(12, 12, 12);
+    text-indent: 100px;
+}
+#img {
+    max-height:1px;
+    max-width:50px ;
+    padding-left: 100px;
+    margin-top: 2px;
+   
+}
+#intro{
+    font-size: 15px;
+   
+    margin-left: 450px;
+    color:rgb(3, 3, 3)
+}
+#text{
+    height: 150px;
+    width: 800px;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+    margin-left: 450px ;
+    letter-spacing: normal;
+line-height: 20px;
+
+}
+.myLogo {
+    display: inline;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 23px;
+    width: auto;
+   
+  }
+  
+  .user {
+    text-align: right;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    background-color: black;
+    color:antiquewhite
+    
+  }
+  

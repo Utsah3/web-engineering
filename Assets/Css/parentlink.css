@@ -1,0 +1,15 @@
+#Parent {
+    background-color: aquamarine;
+    height:280px;
+    border:5px solid black;
+    text-decoration-color: red;
+    text-align: center;
+} 
+#Link {
+    background-color: pink;
+    height: 280px;
+    border:5px solid black;
+    text-decoration-color: blue;
+    text-align: center;
+    margin-top: 10px;
+}

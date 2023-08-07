@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(28, 30, 33);
+}
+.imge{
+    display: inline;
+    float: left;
+    margin-left: 150px;
+    margin-top: 5px;
+    height: 28px;
+    width: auto;
+   
+    
+}
+   #A {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size:25px;
+color: white;
+text-indent: 10px;
+padding-left:50px;
+
+}
+#B {
+    font-size: 20px;
+    color:white;
+    margin-left:800px;
+}
+#b{
+    margin-left:160px;
+    margin-top: 80px;
+}

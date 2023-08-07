@@ -1,0 +1,40 @@
+#Intro{
+    height: 200px;
+    background-color:aquamarine;
+    border: 5px solid pink;
+    padding: 10px;
+    text-align: center;
+    text-decoration: overline;
+    line-height: 30px;
+}
+
+#Add{
+    height: 150px;
+    background-color:beige;
+    border: 5px dotted brown;
+    margin: 10px;
+    text-align: right;
+    text-decoration: underline;
+    text-transform: lowercase;
+    letter-spacing: 15px;
+
+}
+
+#Longing{
+    height: 100px;
+    background-color:blue;
+    border: 5px dashed black;
+    text-align: left;
+    text-indent: 50px;
+    word-spacing:10px;
+}
+
+.maindiv{
+    display: inline;
+}
+  a {
+    display: block;
+    margin-top: 20px;
+  }
+
+  

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <link rel="stylesheet" href="./Assets/Css/table.css">
+    <style>
+        table, 
+        td, 
+        th {
+            border:1px solid black;
+            border-collapse: collapse;
+            background-color: beige;
+            padding:10px;
+        }
+
+        caption{
+color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Major Prophetic Books</h1>
+    <p> The Major Prophets are Isiah, Jeremiah, Lamentations, Ezekial, and Daniel. The Major Prophets are described as "major" because their books are longgers ans the content has larger global effects.</p>
+    
+    <table>
+        <caption>
+            The Major Prophets
+        </caption>
+    <tr>
+        <th>Prophet</th>
+        <th>Time</th>
+        <th>Historical Context</th>
+        <th>Message</th>
+    </tr>
+    <tr>
+        <td>Isiah</td>
+        <td>Pre-exillic, 705</td>
+        <td>Isiah/Judah</td>
+        <td>Salvation through the coming Messiah</td>
+    </tr>
+    <tr>
+        <td>Jeremiah</td>
+        <td>Pre-exillic, 586</td>
+        <td>Judah</td>
+        <td>Return to God by repentance</td>
+    </tr>
+    </table><br>
+
+    <div class="table1">
+        <table>
+            <caption>
+                thead, tbody and tfoot elements
+            </caption>
+            <thead>
+              <tr>
+                <th>Month</th>
+                <th>Savings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>January</td>
+                <td>$100</td>
+              </tr>
+              <tr>
+                <td>February</td>
+                <td>$80</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Sum</td>
+                <td>$180</td>
+              </tr>
+            </tfoot>
+          </table>
+    </div>
+
+
+<h1> Rowspan attribute</h1>
+    <table style="margin-top: 15px;">
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+          <th>Savings for holiday!</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+          <td rowspan="2">$50</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </table>
+
+      <h2>Cell that spans two columns</h2>
+<p>To make a cell span more than one column, use the colspan attribute.</p>
+
+<table style="width:70%">
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>57</td>
+  </tr>
+</table>
+</body>
+</html>

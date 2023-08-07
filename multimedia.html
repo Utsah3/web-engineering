@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+</head>
+<body>
+    <div>
+        <img src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png" alt="fb logo"  height="50px" width="50px">
+        <img src="./Assets/Image/newpic.jpg" alt="photo"  height="100px"  width="100px">
+    </div>
+
+    <div>
+        <audio controls >
+            <source src="./Assets/Multimedia/Calmdown.mp3" type="audio/mp3"/>
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div>
+        <video controls autoplay muted height="300" width="300">
+            <source src="./Assets/Multimedia/Stephanie.mp4"  type="video/mp4"  />
+            Your browser does not support the video.
+        </video>
+    </div>
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"  /><br>
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lname"  /><br>
+        <label for="num">Phone Number:</label>  <br>
+        <input type="number" id="num" name="num"  /> <br>
+        <input type="submit" value="Submit"  /><br>
+    
+        
+    </form>
+    <form>
+        <input enctype="multipart/form-data">
+        <input type="file" multiple />
+    </form>
+    <form>
+        <textarea rows="10"  column="20"></textarea>
+    </form>
+    <form>
+        <select multiple>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+
+        </select>
+    </form>
+    <form action="#" method="post/get" autocomplete="on" novalidate>
+        <input type="radio" id="male" name="gender"  value="male">
+        <label for="male"> Male</label><br>
+        <input type="radio" id="female" name="gender"  value="female">
+        <label for="female"> Female</label>
+    </form>
+   
+    <div>
+        <h1>Nineteen to Twenty</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jOuWNFb-C7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+        
+    </div>
+</body>
+</html>
